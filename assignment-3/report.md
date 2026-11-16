@@ -32,7 +32,7 @@ Both versions use the same cleaned dataset (40 responses, `data/processed/survey
 
 ## Task 3: Conducting the evaluation
 
-I ran 10 people through the study over a few days. Nine were university students I know, and I ran their sessions online over a video call. Most were in the Chicago area, and the rest were in Detroit, New York, Champaign, Seattle, Dubai, and London. The tenth was my brother, who is deaf. Each person used both versions and answered 4 questions, 2 in each version. Each group ended up with 2 or 3 people (group 1: 2, group 2: 3, group 3: 3, group 4: 2). The participant IDs don't follow the group order, because I numbered them after the sessions.
+I ran 10 people through the study over a few days. Nine were university students I know, and I ran their sessions online over a video call. Most were in the Chicago area, and the rest were in Detroit, New York, Champaign, Seattle, Dubai, and London. The tenth was my brother. Each person used both versions and answered 4 questions, 2 in each version. Each group ended up with 2 or 3 people (group 1: 2, group 2: 3, group 3: 3, group 4: 2). The participant IDs don't follow the group order, because I numbered them after the sessions.
 
 I did two pilot runs first. The first was me testing the setup, and the second was my cousin, who only speaks Spanish. I translated the questions and guided him, so that session wasn't run the way the study is supposed to be. I didn't count either pilot. Their rows are still in `study/results.csv` labeled PILOT01 and PILOT02, and the analysis ignores them. After the pilot I stopped guiding people and ran everyone the same way.
 
