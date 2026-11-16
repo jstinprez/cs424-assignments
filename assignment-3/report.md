@@ -42,4 +42,28 @@ What I saw:
 - One person preferred the interactive version because seeing one chart at a time was easier to take in.
 
 ## Task 4: Quantitative analysis
+
+I counted an answer as correct only if it matched the expected one exactly. All the numbers come from `code/03_analysis.py` and `study/results.csv` (10 people, 20 answers per version). I didn't run any significance tests, because 10 people is too few to say much.
+
+| | Static | Interactive |
+|---|---|---|
+| Task 1 (compare shares), correct | 3 of 10 | 2 of 10 |
+| Task 1, median time | 20.0 s | 14.3 s |
+| Task 2 (add up counts), correct | 8 of 10 | 6 of 10 |
+| Task 2, median time | 13.7 s | 8.5 s |
+| Both tasks, correct | 11 of 20 (55%) | 8 of 20 (40%) |
+| Both tasks, median time | 15.5 s | 9.4 s |
+
+![Accuracy](figures/accuracy.png)
+![Completion time](figures/time.png)
+
+**By task.** Interactive was faster in both tasks. It was also less accurate, by 1 answer in Task 1 and 2 answers in Task 2. That's too small to be sure about, but it looks like people moved faster in the interactive version and made more mistakes. All four wrong interactive answers in Task 2 came in under 9 seconds. Two of them were 17, which is the number of people aged 35 or older in a different category ("Heard of them, haven't tried"), so they read the wrong color. In the static version the wrong answers were 9 and 12, and 12 is what you get if you include the 45-54 group.
+
+**By participant.** 6 of 10 people had a lower median time on the interactive version. For accuracy, 6 people got the same number right in both versions, 3 got more right on static, and only 1 got more right on interactive. So the speed gain wasn't universal (4 people were slower on interactive), and the small accuracy drop came from a few people, not everyone.
+
+**Task 1 is the biggest result.** Only 5 of 20 answers were right, which is worse than guessing between two choices. All 15 wrong answers were the age group with the larger number of people (55+ nine times, 35-44 six times), so people were reading counts when I asked about share. That happened in both versions, so it says more about the question and the stacked bars than about static vs interactive.
+
+**Hypothesis.** My guess was that accuracy would be about equal and the interactive version might be faster. The speed part held up. The accuracy part didn't clearly hold up, since interactive was lower, but with this many people I can't say it's a real difference.
+
+
 ## Task 5: Reflection and recommendations
