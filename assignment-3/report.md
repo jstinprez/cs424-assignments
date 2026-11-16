@@ -67,3 +67,22 @@ I counted an answer as correct only if it matched the expected one exactly. All 
 
 
 ## Task 5: Reflection and recommendations
+
+**What worked.** The interactive version was faster in both tasks, and showing one view at a time was easier for at least one person to take in. Counting people (Task 2) was also much easier than comparing shares (Task 1) in both versions.
+
+**What didn't.** Comparing shares was hard in both versions. The stacked bars don't line up, so only the first segment can be compared easily, and several people had trouble with the word "share." The interactive version may also have encouraged quick, careless reads, like picking the wrong color, since the wrong answers there came fast.
+
+**What surprised me.** Task 1 accuracy was below chance. I expected the middle segments to be hard, but not for everyone to pick the group with the larger count.
+
+**What I would change.**
+- Put the percentage inside each segment in the share view, so people don't have to estimate it.
+- Put the category people compare most at the left edge so segments line up, or switch to grouped bars instead of stacked bars.
+- Make the active view obvious in the interactive version, with a clear title that says whether you're looking at shares or counts, so it's harder to read the wrong one.
+- Reword the share question, for example "which age group has a bigger percentage of its people in...", and test the new wording again.
+
+**Limits.**
+- Only 10 people, mostly people I know, so they may not be like real users.
+- Each person answered just 4 questions, with only 2 variants of each task.
+- Most sessions were over a call, so my timing could be off by a second or so from delay between saying "go" and the person reacting. The timing is also my stopwatch, not an automatic measurement.
+- The Task 1 questions confused people, so they may be testing the wording as much as the charts.
+- Which version came first isn't separated out with this few people, though the four groups balance it on paper.
