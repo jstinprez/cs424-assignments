@@ -1,0 +1,7 @@
+task_name,version,n,correct,accuracy,median_time,mean_time
+Task 1: compare shares,static,10,3,0.3,20.0,21.03
+Task 1: compare shares,interactive,10,2,0.2,14.3,20.43
+Task 2: add up counts,static,10,8,0.8,13.7,13.91
+Task 2: add up counts,interactive,10,6,0.6,8.5,9.89
+both tasks,static,20,11,0.55,15.45,17.47
+both tasks,interactive,20,8,0.4,9.4,15.16
